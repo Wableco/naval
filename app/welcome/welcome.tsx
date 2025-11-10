@@ -10,7 +10,11 @@ export function BattleShipGame() {
     const y = Math.floor(Math.random() * 5);
     setShipPosition([x, y]);
   };
-
+  
+  console.log(shipPosition)
+  console.log(board)
+  console.log(message)
+  
   useEffect(() => {
     generateShipPosition();
   }, []);
