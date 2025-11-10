@@ -1,0 +1,5 @@
+- name: Setup React
+  uses: kirkeaton/setup-react@v1.0.5
+  with:
+    react-version: 19.1.1
+    react-dom-version: 19.1.1
